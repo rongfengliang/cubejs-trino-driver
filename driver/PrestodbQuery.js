@@ -33,6 +33,11 @@ class PrestodbQuery extends BaseQuery {
     return new PrestodbFilter(this, filter);
   }
 
+  constructor(compilers, options){
+    // diable timezone 
+     delete options.timezone
+     super(compilers,options)
+  }
   timeStampParam() {
     return 'from_iso8601_timestamp(?)';
   }
