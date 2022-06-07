@@ -34,7 +34,6 @@ class PrestodbQuery extends BaseQuery {
   }
 
   constructor(compilers, options){
-    console.log("options",options)
      super(compilers,options)
   }
   timeStampParam() {
