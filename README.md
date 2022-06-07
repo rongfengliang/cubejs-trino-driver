@@ -20,7 +20,7 @@ CUBEJS_DEV_MODE=true
 * cube.js
 
 ```code
-const {PrestoDriver,PrestodbQuery} = require("@dalongrong/trino-driver")
+const {PrestoDriver,PrestodbQuery} = require("trino-cubejs-driver")
 module.exports = {
     dialectFactory: (dataSource) => {
         // need config  datasource  for multitenant env
