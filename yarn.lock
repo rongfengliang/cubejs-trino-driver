@@ -897,10 +897,10 @@
     shelljs "^0.8.5"
     throttle-debounce "^3.0.1"
 
-"@dalongrong/trino-client@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.npm.taobao.org/@dalongrong/trino-client/download/@dalongrong/trino-client-0.9.0.tgz#57ab698c158a5127065a0d0688ca4d6905a91eae"
-  integrity sha1-V6tpjBWKUScGWg0GiMpNaQWpHq4=
+"@dalongrong/trino-client@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@dalongrong/trino-client/-/trino-client-1.0.0.tgz#c117223d66fe3c40601de8fb4cbff02917cd362f"
+  integrity sha512-X2yk5B/ApY3Ik9Sw1lAv6MfwlRwGbeWCIIBkoYQQvYiI9ndx8rcyY/Uz57NLDudFctQLorOgDfcNbPKf1rw/1A==
 
 "@hapi/address@^4.0.1":
   version "4.1.0"

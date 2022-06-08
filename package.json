@@ -15,7 +15,7 @@
   "dependencies": {
     "@cubejs-backend/query-orchestrator": "^0.30.7",
     "@cubejs-backend/schema-compiler": "^0.30.8",
-    "@dalongrong/trino-client": "^0.9.0",
+    "@dalongrong/trino-client": "^1.0.0",
     "ramda": "^0.28.0",
     "sqlstring": "^2.3.3"
   },
